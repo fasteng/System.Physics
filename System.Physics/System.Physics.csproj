@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D055A073-EC11-4D26-93F6-336DBFA76EE0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>System.Physics</RootNamespace>
+    <AssemblyName>System.Physics</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Maths">
+      <HintPath>..\Testing\bin\Debug\System.Maths.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseFactory.cs" />
+    <Compile Include="BaseUserDataStorer.cs" />
+    <Compile Include="BaseVisitor.cs" />
+    <Compile Include="Constraints\BaseImplementations\BaseCylindricalJoint.cs" />
+    <Compile Include="Constraints\BaseImplementations\BaseDistanceRangeLimit.cs" />
+    <Compile Include="Constraints\BaseImplementations\BaseFixedJoint.cs" />
+    <Compile Include="Constraints\BaseImplementations\BaseHingeJoint.cs" />
+    <Compile Include="Constraints\BaseImplementations\BaseNoRotationJoint.cs" />
+    <Compile Include="Constraints\BaseImplementations\BasePointOnLineJoint.cs" />
+    <Compile Include="Constraints\BaseImplementations\BasePointOnPlaneJoint.cs" />
+    <Compile Include="Constraints\BaseImplementations\BasePrismaticJoint.cs" />
+    <Compile Include="Constraints\BaseImplementations\BaseSphericalJoint.cs" />
+    <Compile Include="Fixtures\BaseCompositeFixture.cs" />
+    <Compile Include="Fixtures\BaseFixture.cs" />
+    <Compile Include="ForceEffects\AtractorForceField.cs" />
+    <Compile Include="ForceEffects\BaseForceEffect.cs" />
+    <Compile Include="ForceEffects\IForceEffect.cs" />
+    <Compile Include="ForceEffects\IForceField.cs" />
+    <Compile Include="GravityForceEffect.cs" />
+    <Compile Include="IGlobalForceField.cs" />
+    <Compile Include="RigidBodies\BaseRigidBody.cs" />
+    <Compile Include="RigidBodies\BodyDescriptor.cs" />
+    <Compile Include="RigidBodies\Configurations\CcdConfiguration.cs" />
+    <Compile Include="RigidBodies\Configurations\CollisionResponseConfiguration.cs" />
+    <Compile Include="RigidBodies\Configurations\SleepingConfiguration.cs" />
+    <Compile Include="RigidBodies\CoordinateSpace.cs" />
+    <Compile Include="RigidBodies\IBody.cs" />
+    <Compile Include="RigidBodies\IEnergiesManager.cs" />
+    <Compile Include="RigidBodies\IForces.cs" />
+    <Compile Include="RigidBodies\IMassFrame.cs" />
+    <Compile Include="RigidBodies\MassExtensors.cs" />
+    <Compile Include="RigidBodies\IVelocitiesManager.cs" />
+    <Compile Include="RigidBodies\MassFrameDescriptor.cs" />
+    <Compile Include="RigidBodies\MotionType.cs" />
+    <Compile Include="RigidBodies\DefaultBody.cs" />
+    <Compile Include="DefaultImplementationType.cs" />
+    <Compile Include="Configurations\BaseConfigurator.cs" />
+    <Compile Include="Configurations\IConfiguration.cs" />
+    <Compile Include="Configurations\IConfigurator.cs" />
+    <Compile Include="Configurations\IConfiguratorOf.cs" />
+    <Compile Include="Constraints\DefaultImplementations\DefaultCylindricalJoint.cs" />
+    <Compile Include="Constraints\DefaultImplementations\DefaultDistanceRangeLimit.cs" />
+    <Compile Include="Constraints\DefaultImplementations\DefaultFixedJoint.cs" />
+    <Compile Include="Constraints\DefaultImplementations\DefaultHingeJoint.cs" />
+    <Compile Include="Constraints\DefaultImplementations\DefaultNoRotationJoint.cs" />
+    <Compile Include="Constraints\DefaultImplementations\DefaultPointOnLineJoint.cs" />
+    <Compile Include="Constraints\DefaultImplementations\DefaultPointOnPlaneJoint.cs" />
+    <Compile Include="Constraints\DefaultImplementations\DefaultPrismaticJoint.cs" />
+    <Compile Include="Constraints\DefaultImplementations\DefaultSphericalJoint.cs" />
+    <Compile Include="Constraints\Descriptors\CylindricalJointDescriptor.cs" />
+    <Compile Include="Constraints\Descriptors\DistanceRangeLimitDescriptor.cs" />
+    <Compile Include="Constraints\Descriptors\FixedJointDescriptor.cs" />
+    <Compile Include="Constraints\Descriptors\HingeJointDescriptor.cs" />
+    <Compile Include="Constraints\Descriptors\NoRotationJointDescriptor.cs" />
+    <Compile Include="Constraints\Descriptors\PointOnLineJointDescriptor.cs" />
+    <Compile Include="Constraints\Descriptors\PointOnPlaneJointDescriptor.cs" />
+    <Compile Include="Constraints\Descriptors\PrismaticJointDescriptor.cs" />
+    <Compile Include="Constraints\Descriptors\SphericalJointDescriptor.cs" />
+    <Compile Include="Constraints\IAngularLimit.cs" />
+    <Compile Include="Constraints\ISphericalJoint.cs" />
+    <Compile Include="Constraints\IConstraint.cs" />
+    <Compile Include="Constraints\ICylindricalJoint.cs" />
+    <Compile Include="Constraints\IFixedJoint.cs" />
+    <Compile Include="Constraints\IHingeJoint.cs" />
+    <Compile Include="Constraints\ILinearLimit.cs" />
+    <Compile Include="Constraints\INoRotationJoint.cs" />
+    <Compile Include="Constraints\IPointOnLineJoint.cs" />
+    <Compile Include="Constraints\IPointOnPlaneJoint.cs" />
+    <Compile Include="Constraints\IPrismaticJoint.cs" />
+    <Compile Include="Constraints\IDistanceRangeLimit.cs" />
+    <Compile Include="Constraints\ITwoBodiesConstraint.cs" />
+    <Compile Include="Factories\BaseMultipleFactory.cs" />
+    <Compile Include="Factories\BaseSingleFactory.cs" />
+    <Compile Include="Factories\CreatorExtensors.cs" />
+    <Compile Include="Factories\IFactory.cs" />
+    <Compile Include="Factories\IFactoryOf.cs" />
+    <Compile Include="Factories\IMultipleFactory.cs" />
+    <Compile Include="Factories\ISingleFactory.cs" />
+    <Compile Include="Fixtures\FixtureDescriptor.cs" />
+    <Compile Include="Fixtures\ICompositeFixture.cs" />
+    <Compile Include="Fixtures\IFixture.cs" />
+    <Compile Include="Fixtures\ISimpleFixture.cs" />
+    <Compile Include="IActor.cs" />
+    <Compile Include="IDefaultible.cs" />
+    <Compile Include="IDescriptible.cs" />
+    <Compile Include="IDescriptor.cs" />
+    <Compile Include="IStateCopier.cs" />
+    <Compile Include="LockRotationConfiguration.cs" />
+    <Compile Include="Materials\FrictionConfiguration.cs" />
+    <Compile Include="Materials\RestitutionConfiguration.cs" />
+    <Compile Include="IShapeTransformationPair.cs" />
+    <Compile Include="IUserDataStorer.cs" />
+    <Compile Include="Materials\DefaultMaterial.cs" />
+    <Compile Include="Materials\IMaterial.cs" />
+    <Compile Include="Materials\MaterialDescriptor.cs" />
+    <Compile Include="MatricesExtensors.cs" />
+    <Compile Include="ShapePositionerDescriptor.cs" />
+    <Compile Include="Shapes\BaseImplementations\BaseBoxShape.cs" />
+    <Compile Include="Shapes\BaseImplementations\BaseCapsuleShape.cs" />
+    <Compile Include="Shapes\BaseImplementations\BaseCircleShape.cs" />
+    <Compile Include="Shapes\BaseImplementations\BaseCompositeShape.cs" />
+    <Compile Include="Shapes\BaseImplementations\BaseConvexHullOfPointsShape.cs" />
+    <Compile Include="Shapes\BaseImplementations\BaseConvexHullOfShapesShape.cs" />
+    <Compile Include="Shapes\BaseImplementations\BaseConvexPolyhedronShape.cs" />
+    <Compile Include="Shapes\BaseImplementations\BaseCylinderShape.cs" />
+    <Compile Include="Shapes\BaseImplementations\BaseHeightFieldShape.cs" />
+    <Compile Include="Shapes\BaseImplementations\BaseLineSegmentShape.cs" />
+    <Compile Include="Shapes\BaseImplementations\BaseLineShape.cs" />
+    <Compile Include="Shapes\BaseImplementations\BasePointShape.cs" />
+    <Compile Include="Shapes\BaseImplementations\BaseRectangleShape.cs" />
+    <Compile Include="Shapes\BaseImplementations\BaseSphereShape.cs" />
+    <Compile Include="Shapes\BaseImplementations\BaseTransformedShape.cs" />
+    <Compile Include="Shapes\BaseImplementations\BaseTriangleMeshShape.cs" />
+    <Compile Include="Shapes\BaseImplementations\BaseTriangleShape.cs" />
+    <Compile Include="Shapes\BaseImplementations\BasePlaneShape.cs" />
+    <Compile Include="Shapes\BaseShapePositioner.cs" />
+    <Compile Include="Shapes\DefaultImplementations\DefaultBoxShape.cs" />
+    <Compile Include="Shapes\DefaultImplementations\DefaultCapsuleShape.cs" />
+    <Compile Include="Shapes\DefaultImplementations\DefaultCircleShape.cs" />
+    <Compile Include="Shapes\DefaultImplementations\DefaultCompositeShape.cs" />
+    <Compile Include="Shapes\DefaultImplementations\DefaultConvexHullOfPointsShape.cs" />
+    <Compile Include="Shapes\DefaultImplementations\DefaultConvexHullOfShapesShape.cs" />
+    <Compile Include="Shapes\DefaultImplementations\DefaultConvexPolyhedronShape.cs" />
+    <Compile Include="Shapes\DefaultImplementations\DefaultCylinderShape.cs" />
+    <Compile Include="Shapes\DefaultImplementations\DefaultHeightFieldShape.cs" />
+    <Compile Include="Shapes\DefaultImplementations\DefaultLineSegmentShape.cs" />
+    <Compile Include="Shapes\DefaultImplementations\DefaultLineShape.cs" />
+    <Compile Include="Shapes\DefaultImplementations\DefaultPlaneShape.cs" />
+    <Compile Include="Shapes\DefaultImplementations\DefaultPointShape.cs" />
+    <Compile Include="Shapes\DefaultImplementations\DefaultRectangleShape.cs" />
+    <Compile Include="Shapes\DefaultImplementations\DefaultSphereShape.cs" />
+    <Compile Include="Shapes\DefaultImplementations\DefaultTransformedShape.cs" />
+    <Compile Include="Shapes\DefaultImplementations\DefaultTriangleMeshShape.cs" />
+    <Compile Include="Shapes\DefaultImplementations\DefaultTriangleShape.cs" />
+    <Compile Include="Shapes\Descriptors\BoxShapeDescriptor.cs" />
+    <Compile Include="Shapes\Descriptors\CapsuleShapeDescriptor.cs" />
+    <Compile Include="Shapes\Descriptors\CircleShapeDescriptor.cs" />
+    <Compile Include="Shapes\Descriptors\CompositeShapeDescriptor.cs" />
+    <Compile Include="Shapes\Descriptors\ConvexHullOfPointsShapeDescriptor.cs" />
+    <Compile Include="Shapes\Descriptors\ConvexHullOfShapesShapeDescriptor.cs" />
+    <Compile Include="Shapes\Descriptors\ConvexPolyhedronShapeDescriptor.cs" />
+    <Compile Include="Shapes\Descriptors\CylinderShapeDescriptor.cs" />
+    <Compile Include="Shapes\Descriptors\HeightFieldShapeDescriptor.cs" />
+    <Compile Include="Shapes\Descriptors\LineShapeDescriptor.cs" />
+    <Compile Include="Shapes\Descriptors\PlaneShapeDescriptor.cs" />
+    <Compile Include="Shapes\Descriptors\PointShapeDescriptor.cs" />
+    <Compile Include="Shapes\Descriptors\RectangleShapeDescriptor.cs" />
+    <Compile Include="Shapes\Descriptors\SphereShapeDescriptor.cs" />
+    <Compile Include="Shapes\Descriptors\LineSegmentShapeDescriptor.cs" />
+    <Compile Include="Shapes\Descriptors\TransformedShapeDescriptor.cs" />
+    <Compile Include="Shapes\Descriptors\TriangleMeshShapeDescriptor.cs" />
+    <Compile Include="Shapes\Descriptors\TriangleShapeDescriptor.cs" />
+    <Compile Include="Shapes\ICapsuleShape.cs" />
+    <Compile Include="Shapes\ICircleShape.cs" />
+    <Compile Include="Shapes\ICompositeShape.cs" />
+    <Compile Include="Shapes\IConvexHullOfPointsShape.cs" />
+    <Compile Include="Shapes\IConvexHullOfShapesShape.cs" />
+    <Compile Include="Shapes\IConvexPolyhedronShape.cs" />
+    <Compile Include="Shapes\IBoxShape.cs" />
+    <Compile Include="Shapes\ICylinderShape.cs" />
+    <Compile Include="Shapes\IHeightFieldShape.cs" />
+    <Compile Include="Shapes\ILineSegmentShape.cs" />
+    <Compile Include="Shapes\ILineShape.cs" />
+    <Compile Include="Shapes\IPlaneShape.cs" />
+    <Compile Include="Shapes\IPointShape.cs" />
+    <Compile Include="Shapes\IRectangleShape.cs" />
+    <Compile Include="Shapes\IShape.cs" />
+    <Compile Include="Shapes\ISphereShape.cs" />
+    <Compile Include="Shapes\ITransformedShape.cs" />
+    <Compile Include="Shapes\ITriangleMeshShape.cs" />
+    <Compile Include="Shapes\ITriangleShape.cs" />
+    <Compile Include="Simulators\BaseSimulator.cs" />
+    <Compile Include="Simulators\Configurations\AllowedConstrainErrorsConfiguration.cs" />
+    <Compile Include="Simulators\Configurations\CcdConfiguration.cs" />
+    <Compile Include="Simulators\Configurations\MaximalVelocitiesConfiguration.cs" />
+    <Compile Include="Simulators\Configurations\MultithreadingConfiguration.cs" />
+    <Compile Include="Simulators\Configurations\SceneDelimitationConfiguration.cs" />
+    <Compile Include="Simulators\Configurations\SleepingConfiguration.cs" />
+    <Compile Include="Simulators\Configurations\TimeStepingConfiguration.cs" />
+    <Compile Include="Simulators\IQueries.cs" />
+    <Compile Include="Simulators\ISimulator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnsupportedOperationEvent.cs" />
+    <Compile Include="Visitor\ILeafVisitorOf.cs" />
+    <Compile Include="Visitor\ITreeEndVisitorOf.cs" />
+    <Compile Include="Visitor\ITreeStartVisitorOf.cs" />
+    <Compile Include="Visitor\IVisitable.cs" />
+    <Compile Include="Visitor\IVisitableLeaf.cs" />
+    <Compile Include="Visitor\IVisitableTree.cs" />
+    <Compile Include="Visitor\IVisitor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Abstraction Class Diagram.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3F986765-8F87-4D76-97F8-F420767AA137}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>System.Physics.DigitalRune</RootNamespace>
+    <AssemblyName>System.Physics.DigitalRune</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DigitalRune">
+      <HintPath>G:\Documentos\Sandy\Tesis\Motores para C#\Engines\DigitalRune Physics\Engine\DigitalRune-Engine\Samples\DigitalRune.Physics\General Samples\PhysicsSample\bin\x86\Debug\DigitalRune.dll</HintPath>
+    </Reference>
+    <Reference Include="DigitalRune.Geometry">
+      <HintPath>G:\Documentos\Sandy\Tesis\Motores para C#\Engines\DigitalRune Physics\Engine\DigitalRune-Engine\Samples\DigitalRune.Physics\General Samples\PhysicsSample\bin\x86\Debug\DigitalRune.Geometry.dll</HintPath>
+    </Reference>
+    <Reference Include="DigitalRune.Mathematics">
+      <HintPath>G:\Documentos\Sandy\Tesis\Motores para C#\Engines\DigitalRune Physics\Engine\DigitalRune-Engine\Samples\DigitalRune.Physics\General Samples\PhysicsSample\bin\x86\Debug\DigitalRune.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="DigitalRune.Physics">
+      <HintPath>G:\Documentos\Sandy\Tesis\Motores para C#\Engines\DigitalRune Physics\Engine\DigitalRune-Engine\Samples\DigitalRune.Physics\General Samples\PhysicsSample\bin\x86\Debug\DigitalRune.Physics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework">
+      <HintPath>..\..\Tesis Evolucion\System.Physics 6-9-13\Testing\bin\Debug\Microsoft.Xna.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game">
+      <HintPath>..\..\Tesis Evolucion\System.Physics 6-9-13\Testing\bin\Debug\Microsoft.Xna.Framework.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics">
+      <HintPath>..\..\Tesis Evolucion\System.Physics 6-9-13\Testing\bin\Debug\Microsoft.Xna.Framework.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Maths, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\System.Physics\bin\Debug\System.Maths.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fixtures\CompositeFixture.cs" />
+    <Compile Include="Fixtures\CompositeFixtureFixtureFactory.cs" />
+    <Compile Include="RigidBodies\RigidBody.cs" />
+    <Compile Include="RigidBodies\RigidBodyConfigurator.cs" />
+    <Compile Include="RigidBodies\RigidBodyFixtureFactory.cs" />
+    <Compile Include="RigidBodies\RigidBodyForces.cs" />
+    <Compile Include="RigidBodies\RigidBodyMassFrame.cs" />
+    <Compile Include="RigidBodies\RigidBodyVelocity.cs" />
+    <Compile Include="Constraints\DigitalRuneCylindricalJoint.cs" />
+    <Compile Include="Constraints\DigitalRuneDistanceRangeJoint.cs" />
+    <Compile Include="Constraints\DigitalRuneFixedJoint.cs" />
+    <Compile Include="Constraints\DigitalRuneHingeJoint.cs" />
+    <Compile Include="Constraints\DigitalRuneNoRotationJoint.cs" />
+    <Compile Include="Constraints\DigitalRunePointOnLineJoint.cs" />
+    <Compile Include="Constraints\DigitalRunePointOnPlaneJoint.cs" />
+    <Compile Include="Constraints\DigitalRunePrismaticJoint.cs" />
+    <Compile Include="Constraints\DigitalRuneSphericalJoint.cs" />
+    <Compile Include="Constraints\IDigitalRuneTwoRigidBodiesConstraints.cs" />
+    <Compile Include="Conversions.cs" />
+    <Compile Include="Factories\DigitalRuneShapeFactoryBase.cs" />
+    <Compile Include="Fixtures\SimpleFixtureMaterialFactory.cs" />
+    <Compile Include="Fixtures\SimpleFixture.cs" />
+    <Compile Include="Fixtures\SimpleFixtureShapeFactory.cs" />
+    <Compile Include="Materials\MaterialConfigurator.cs" />
+    <Compile Include="Materials\Material.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shapes\BoxShape.cs" />
+    <Compile Include="Shapes\CapsuleShape.cs" />
+    <Compile Include="Shapes\CircleShape.cs" />
+    <Compile Include="Shapes\CompositeShape.cs" />
+    <Compile Include="Shapes\DigitalRuneCompositeShapeShapePositionerFactory.cs" />
+    <Compile Include="Shapes\DigitalRuneConvexHullOfPointsShape.cs" />
+    <Compile Include="Shapes\DigitalRuneConvexHullOfShapesShape.cs" />
+    <Compile Include="Shapes\DigitalRuneConvexPolyhedronShape.cs" />
+    <Compile Include="Shapes\CylinderShape.cs" />
+    <Compile Include="Shapes\DigitalRuneHeightFieldShape.cs" />
+    <Compile Include="Shapes\LineSegmentShape.cs" />
+    <Compile Include="Shapes\LineShape.cs" />
+    <Compile Include="Shapes\PlaneShape.cs" />
+    <Compile Include="Shapes\PointShape.cs" />
+    <Compile Include="Shapes\RectangleShape.cs" />
+    <Compile Include="Shapes\ShapePositioner.cs" />
+    <Compile Include="Shapes\DigitalRuneShapePositionerShapeFactory.cs" />
+    <Compile Include="Shapes\SphereShape.cs" />
+    <Compile Include="Shapes\DigitalRuneTransformedShape.cs" />
+    <Compile Include="Shapes\DigitalRuneTriangleMeshShape.cs" />
+    <Compile Include="Shapes\TriangleShape.cs" />
+    <Compile Include="Shapes\IDigitalRuneShape.cs" />
+    <Compile Include="Simulators\Simulator.cs" />
+    <Compile Include="Simulators\SimulatorConfigurator.cs" />
+    <Compile Include="Simulators\SimulatorBodyFactory.cs" />
+    <Compile Include="Simulators\SimulatorConstraintsFactory.cs" />
+    <Compile Include="Simulators\SimulatorQueries.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\System.Physics\System.Physics.csproj">
+      <Project>{d055a073-ec11-4d26-93f6-336dbfa76ee0}</Project>
+      <Name>System.Physics</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Digital Rune Class Diagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Conversions\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

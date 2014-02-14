@@ -1,0 +1,1415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical">
+  <Class Name="System.Physics.RigidBodies.BaseRigidBody" Collapsed="true">
+    <Position X="18.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAIAAAAEAAACAAAAAEAAIAAAAEAAAAAAAAGAAMAAA=</HashCode>
+      <FileName>RigidBodies\BaseRigidBody.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Physics.RigidBodies.DefaultRigidBody" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAIAAAAEAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>RigidBodies\DefaultBody.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Materials.DefaultMaterial" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Materials\DefaultMaterial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Constraints.DefaultImplementations.DefaultFixedJoint" Collapsed="true">
+    <Position X="63.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAJBAAIAQAAAgAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Constraints\DefaultImplementations\DefaultFixedJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Constraints.DefaultImplementations.DefaultSphericalJoint" Collapsed="true">
+    <Position X="65.75" Y="17.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAJBAAAAAAAAgAAIgAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DefaultImplementations\DefaultSphericalJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Constraints.DefaultImplementations.DefaultPrismaticJoint" Collapsed="true">
+    <Position X="68.25" Y="17.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAJBAAIKQAAAgAAAAACCAAAAAAAA=</HashCode>
+      <FileName>Constraints\DefaultImplementations\DefaultPrismaticJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Constraints.DefaultImplementations.DefaultCylindricalJoint" Collapsed="true">
+    <Position X="70.75" Y="17.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAgAAJBAAIKQAIAgAAAAgCCAAAAAAAA=</HashCode>
+      <FileName>Constraints\DefaultImplementations\DefaultCylindricalJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Constraints.DefaultImplementations.DefaultDistanceRangeJoint" Collapsed="true">
+    <Position X="73.5" Y="17.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAEAJBAAAKAAAAgAAIgACAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DefaultImplementations\DefaultDistanceRangeLimit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Constraints.DefaultImplementations.DefaultNoRotationJoint" Collapsed="true">
+    <Position X="71" Y="22.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAABAAAAJBAAAAEAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DefaultImplementations\DefaultNoRotationJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Constraints.DefaultImplementations.DefaultHingeJoint" Collapsed="true">
+    <Position X="63.25" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAgAAJBAAIIQAIAgAAAAgECAAAAAAAA=</HashCode>
+      <FileName>Constraints\DefaultImplementations\DefaultHingeJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Constraints.DefaultImplementations.DefaultPointOnLineJoint" Collapsed="true">
+    <Position X="65.75" Y="22.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAABEAJBAAAKAAAAgAAJgACAAAACAAAA=</HashCode>
+      <FileName>Constraints\DefaultImplementations\DefaultPointOnLineJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Constraints.DefaultImplementations.DefaultPointOnPlaneJoint" Collapsed="true">
+    <Position X="68.25" Y="22.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAACAQAAAECJBAAQAMAGAgEAIigAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DefaultImplementations\DefaultPointOnPlaneJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Shapes.DefaultImplementations.DefaultSphereShape" Collapsed="true">
+    <Position X="50.75" Y="24.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DefaultImplementations\DefaultSphereShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Shapes.DefaultImplementations.DefaultBoxShape" Collapsed="true">
+    <Position X="43.5" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DefaultImplementations\DefaultBoxShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Shapes.DefaultImplementations.DefaultCapsuleShape" Collapsed="true">
+    <Position X="46.25" Y="24.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DefaultImplementations\DefaultCapsuleShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Shapes.DefaultImplementations.DefaultCircleShape" Collapsed="true">
+    <Position X="48.5" Y="20.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DefaultImplementations\DefaultCircleShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Shapes.DefaultImplementations.DefaultCompositeShape" Collapsed="true">
+    <Position X="43.5" Y="28.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DefaultImplementations\DefaultCompositeShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Shapes.DefaultImplementations.DefaultConvexHullOfPointsShape" Collapsed="true">
+    <Position X="46.5" Y="33" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DefaultImplementations\DefaultConvexHullOfPointsShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Shapes.DefaultImplementations.DefaultConvexHullOfShapesShape" Collapsed="true">
+    <Position X="48.75" Y="28.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DefaultImplementations\DefaultConvexHullOfShapesShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Shapes.DefaultImplementations.DefaultConvexPolyhedronShape" Collapsed="true">
+    <Position X="43.5" Y="33" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DefaultImplementations\DefaultConvexPolyhedronShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Shapes.DefaultImplementations.DefaultCylinderShape" Collapsed="true">
+    <Position X="48.5" Y="24.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DefaultImplementations\DefaultCylinderShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Shapes.DefaultImplementations.DefaultHeightFieldShape" Collapsed="true">
+    <Position X="43.5" Y="37.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DefaultImplementations\DefaultHeightFieldShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Shapes.DefaultImplementations.DefaultLineSegmentShape" Collapsed="true">
+    <Position X="46" Y="16.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAgAAAAAAg=</HashCode>
+      <FileName>Shapes\DefaultImplementations\DefaultLineSegmentShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Shapes.DefaultImplementations.DefaultLineShape" Collapsed="true">
+    <Position X="43.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DefaultImplementations\DefaultLineShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Shapes.DefaultImplementations.DefaultPlaneShape" Collapsed="true">
+    <Position X="50.75" Y="20.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DefaultImplementations\DefaultPlaneShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Shapes.DefaultImplementations.DefaultPointShape" Collapsed="true">
+    <Position X="43.5" Y="12.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DefaultImplementations\DefaultPointShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Shapes.DefaultImplementations.DefaultRectangleShape" Collapsed="true">
+    <Position X="46" Y="20.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DefaultImplementations\DefaultRectangleShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Shapes.DefaultImplementations.DefaultTransformedShape" Collapsed="true">
+    <Position X="46.25" Y="28.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DefaultImplementations\DefaultTransformedShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Shapes.DefaultImplementations.DefaultTriangleMeshShape" Collapsed="true">
+    <Position X="46.25" Y="37.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DefaultImplementations\DefaultTriangleMeshShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Shapes.DefaultImplementations.DefaultTriangleShape" Collapsed="true">
+    <Position X="43.5" Y="20.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAADgAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DefaultImplementations\DefaultTriangleShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Configurations.BaseConfigurator&lt;T&gt;" Collapsed="true">
+    <Position X="1" Y="12.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAAAAAAAAAAAAGAAAAAEAAABAAAA=</HashCode>
+      <FileName>Configurations\BaseConfigurator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Physics.Factories.BaseMultipleFactory&lt;TBase&gt;" Collapsed="true">
+    <Position X="1" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAADAAgAAQBAAAAAABAAAAAAAAAQBAAAA=</HashCode>
+      <FileName>Factories\BaseMultipleFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Factories.BaseSingleFactory&lt;TBase&gt;" Collapsed="true">
+    <Position X="3.75" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAACAAAAgAAAAAAAAAAAAAAAAAAQBAAAA=</HashCode>
+      <FileName>Factories\BaseSingleFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.BaseFactory&lt;TBase&gt;" Collapsed="true">
+    <Position X="2.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAACEAAAAAAAQBAIAA=</HashCode>
+      <FileName>BaseFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Factories.FactoryExtensors" Collapsed="true">
+    <Position X="5.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAggEAAQAAgACIgAAAAIAAAAQGJoAAAJIAA5AEAAQg=</HashCode>
+      <FileName>Factories\CreatorExtensors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.RigidBodies.MassExtensors" Collapsed="true">
+    <Position X="21.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RigidBodies\MassExtensors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DefaultImplementationType" Collapsed="true">
+    <Position X="47.25" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>DefaultImplementationType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.Shapes.BaseImplementations.BasePlaneShape" Collapsed="true">
+    <Position X="50.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAACAAAAEAAAAAAAAIEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\BaseImplementations\BasePlaneShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.BaseUserDataStorer" Collapsed="true">
+    <Position X="10.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>BaseUserDataStorer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.BaseVisitor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQCAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>BaseVisitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Physics.Fixtures.BaseFixture" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAACAAAAAAAAAAAAAEAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Fixtures\BaseFixture.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Physics.Shapes.BaseShapePositioner" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAACAIAAAAAAAAAAAEAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Shapes\BaseShapePositioner.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Physics.Constraints.BaseImplementations.BaseFixedJoint" Collapsed="true">
+    <Position X="63.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAACAAAJAAAIAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\BaseImplementations\BaseFixedJoint.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Shapes.BaseImplementations.BasePointShape" Collapsed="true">
+    <Position X="43.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAACAgAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\BaseImplementations\BasePointShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Constraints.BaseImplementations.BaseHingeJoint" Collapsed="true">
+    <Position X="63.25" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAEAAACAAAJAAAIAQAIAAAAAAgEAAAAAAAAA=</HashCode>
+      <FileName>Constraints\BaseImplementations\BaseHingeJoint.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Constraints.BaseImplementations.BasePointOnLineJoint" Collapsed="true">
+    <Position X="65.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAEAAACAAAJAAAAAAAAAAAAJAACAAAACAAAA=</HashCode>
+      <FileName>Constraints\BaseImplementations\BasePointOnLineJoint.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Constraints.BaseImplementations.BaseDistanceRangeJoint" Collapsed="true">
+    <Position X="73.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAEAAACAAAJAAAAAAAAAAAAIAACAAAAAAAAA=</HashCode>
+      <FileName>Constraints\BaseImplementations\BaseDistanceRangeLimit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Constraints.BaseImplementations.BasePrismaticJoint" Collapsed="true">
+    <Position X="68.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAEAAACAAAJAAAIAQAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Constraints\BaseImplementations\BasePrismaticJoint.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Constraints.BaseImplementations.BasePointOnPlaneJoint" Collapsed="true">
+    <Position X="68.25" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAEAQACAACJAAAAAMAGAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\BaseImplementations\BasePointOnPlaneJoint.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Constraints.BaseImplementations.BaseSphericalJoint" Collapsed="true">
+    <Position X="65.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAACAAAJAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\BaseImplementations\BaseSphericalJoint.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Constraints.BaseImplementations.BaseNoRotationJoint" Collapsed="true">
+    <Position X="71" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAACAAAJAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\BaseImplementations\BaseNoRotationJoint.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Constraints.BaseImplementations.BaseCylindricalJoint" Collapsed="true">
+    <Position X="70.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAEAAACAAAJAAAIAQAIAAAAAAgCAAAAAAAAA=</HashCode>
+      <FileName>Constraints\BaseImplementations\BaseCylindricalJoint.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Shapes.BaseImplementations.BaseLineShape" Collapsed="true">
+    <Position X="43.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAACAAACAAAABAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\BaseImplementations\BaseLineShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Shapes.BaseImplementations.BaseTriangleShape" Collapsed="true">
+    <Position X="43.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAACDgAAAAAAAAAAAIEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\BaseImplementations\BaseTriangleShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Shapes.BaseImplementations.BaseCylinderShape" Collapsed="true">
+    <Position X="48.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAABEAAACAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\BaseImplementations\BaseCylinderShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Shapes.BaseImplementations.BaseBoxShape" Collapsed="true">
+    <Position X="43.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAACAAAAAAAEAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\BaseImplementations\BaseBoxShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Shapes.BaseImplementations.BaseCompositeShape" Collapsed="true">
+    <Position X="43.5" Y="27.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAEAAACAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\BaseImplementations\BaseCompositeShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Shapes.BaseImplementations.BaseConvexPolyhedronShape" Collapsed="true">
+    <Position X="43.5" Y="32" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAACAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\BaseImplementations\BaseConvexPolyhedronShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Shapes.BaseImplementations.BaseConvexHullOfShapesShape" Collapsed="true">
+    <Position X="48.75" Y="27.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAACAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\BaseImplementations\BaseConvexHullOfShapesShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Shapes.BaseImplementations.BaseTriangleMeshShape" Collapsed="true">
+    <Position X="46.25" Y="36.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAACAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\BaseImplementations\BaseTriangleMeshShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Shapes.BaseImplementations.BaseCircleShape" Collapsed="true">
+    <Position X="48.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAEAAACAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\BaseImplementations\BaseCircleShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Shapes.BaseImplementations.BaseLineSegmentShape" Collapsed="true">
+    <Position X="46" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAQCAAAAAAAABAAAAAEAAAAAAgAAAAAAg=</HashCode>
+      <FileName>Shapes\BaseImplementations\BaseLineSegmentShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Shapes.BaseImplementations.BaseRectangleShape" Collapsed="true">
+    <Position X="46" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAACAAAAAAAEAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\BaseImplementations\BaseRectangleShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Shapes.BaseImplementations.BaseSphereShape" Collapsed="true">
+    <Position X="50.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAEAAACAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\BaseImplementations\BaseSphereShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Shapes.BaseImplementations.BaseCapsuleShape" Collapsed="true">
+    <Position X="46.25" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAABEAAACAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\BaseImplementations\BaseCapsuleShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Shapes.BaseImplementations.BaseTransformedShape" Collapsed="true">
+    <Position X="46.25" Y="27.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAEAAACAAAAAAAAAAAAAEEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\BaseImplementations\BaseTransformedShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Shapes.BaseImplementations.BaseHeightFieldShape" Collapsed="true">
+    <Position X="43.5" Y="36.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAACAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\BaseImplementations\BaseHeightFieldShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.Shapes.BaseImplementations.BaseConvexHullOfPointsShape" Collapsed="true">
+    <Position X="46.25" Y="32" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAACAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\BaseImplementations\BaseConvexHullOfPointsShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.ForceEffects.AtractorForceField">
+    <Position X="6.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ForceEffects\AtractorForceField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.ForceEffects.BaseForceEffect">
+    <Position X="3.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAQQAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ForceEffects\BaseForceEffect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.GravityForceEffect">
+    <Position X="1.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>GravityForceEffect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Physics.UnsupportedOperationEventArgs">
+    <Position X="8" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>UnsupportedOperationEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="System.Physics.Simulators.Configurations.AllowedConstrainErrorsConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="10" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AgAIAAAAAAAAAAAAAAAAAAAAAAQAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Simulators\Configurations\AllowedConstrainErrorsConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Physics.Simulators.Configurations.CcdConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Simulators\Configurations\CcdConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Physics.Simulators.Configurations.MaximumVelocitiesConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="14.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Simulators\Configurations\MaximalVelocitiesConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Physics.Simulators.Configurations.MultithreadingConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="10.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Simulators\Configurations\MultithreadingConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Physics.Simulators.Configurations.SceneDelimitationConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="12.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAgABAAAAAAQAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Simulators\Configurations\SceneDelimitationConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Physics.Simulators.Configurations.SleepingConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="13" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAACAAABAAAA=</HashCode>
+      <FileName>Simulators\Configurations\SleepingConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Physics.Simulators.Configurations.TimeStepingConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="11.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAIAAACAAAAAAAAAAAAAAACAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Simulators\Configurations\TimeStepingConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Physics.RigidBodies.RigidBodyDescriptor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAEAAIAAA=</HashCode>
+      <FileName>RigidBodies\BodyDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Fixtures.FixtureDescriptor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Fixtures\FixtureDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Shapes.Descriptors.PlaneShapeDescriptor" Collapsed="true">
+    <Position X="50.75" Y="18.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAEAAAAAAAAIAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Shapes\Descriptors\PlaneShapeDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Shapes.Descriptors.BoxShapeDescriptor" Collapsed="true">
+    <Position X="43.5" Y="22.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Shapes\Descriptors\BoxShapeDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Constraints.Descriptors.CylindricalJointDescriptor" Collapsed="true">
+    <Position X="70.75" Y="15.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AggAAAAAAAAAAAAAAJAAAIAQAIAAAAAAgCAAAAAIAAA=</HashCode>
+      <FileName>Constraints\Descriptors\CylindricalJointDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Constraints.Descriptors.DistanceRangeJointDescriptor" Collapsed="true">
+    <Position X="73.5" Y="15.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AggAAAAAAAAAAAAAAJAAAAAAAAAAAAIAACAAAAAIAAA=</HashCode>
+      <FileName>Constraints\Descriptors\DistanceRangeLimitDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Constraints.Descriptors.FixedJointDescriptor" Collapsed="true">
+    <Position X="63.25" Y="15.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAJAAAIAQAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Constraints\Descriptors\FixedJointDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Constraints.Descriptors.HingeJointDescriptor" Collapsed="true">
+    <Position X="63.25" Y="20.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAJAAAIAQAIAAAAAAgAAAAAAIAAA=</HashCode>
+      <FileName>Constraints\Descriptors\HingeJointDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Physics.Constraints.Descriptors.NoRotationJointDescriptor" Collapsed="true">
+    <Position X="71" Y="20.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAJAAAAAEAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Constraints\Descriptors\NoRotationJointDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Constraints.Descriptors.PointOnLineJointDescriptor" Collapsed="true">
+    <Position X="65.75" Y="20.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AggAAAAAAAAAAAAAAJAAAAAAAAAAAAIAACAAAACIAAA=</HashCode>
+      <FileName>Constraints\Descriptors\PointOnLineJointDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Constraints.Descriptors.PointOnPlaneJointDescriptor" Collapsed="true">
+    <Position X="68.25" Y="20.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAQAAAACJAAAAAMAGAAAAIAAAAAAAAIAAA=</HashCode>
+      <FileName>Constraints\Descriptors\PointOnPlaneJointDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Constraints.Descriptors.PrismaticJointDescriptor" Collapsed="true">
+    <Position X="68.25" Y="15.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AggAAAAAAAAAAAAAAJAAAIAQAAAAAAAAACAAAAAIAAA=</HashCode>
+      <FileName>Constraints\Descriptors\PrismaticJointDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Constraints.Descriptors.SphericalJointDescriptor" Collapsed="true">
+    <Position X="65.75" Y="15.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAJAAAAAAAAAAAAIAAAAAAAAIAAA=</HashCode>
+      <FileName>Constraints\Descriptors\SphericalJointDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Shapes.Descriptors.LineSegmentShapeDescriptor" Collapsed="true">
+    <Position X="46" Y="14.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAIAAg=</HashCode>
+      <FileName>Shapes\Descriptors\LineSegmentShapeDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Shapes.Descriptors.CircleShapeDescriptor" Collapsed="true">
+    <Position X="48.5" Y="18.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Shapes\Descriptors\CircleShapeDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Shapes.Descriptors.CapsuleShapeDescriptor" Collapsed="true">
+    <Position X="46.25" Y="22.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAIAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Shapes\Descriptors\CapsuleShapeDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Shapes.Descriptors.CylinderShapeDescriptor" Collapsed="true">
+    <Position X="48.5" Y="22.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAIAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Shapes\Descriptors\CylinderShapeDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Physics.Shapes.Descriptors.CompositeShapeDescriptor" Collapsed="true">
+    <Position X="43.5" Y="26.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Shapes\Descriptors\CompositeShapeDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Shapes.Descriptors.ConvexPolyhedronShapeDescriptor" Collapsed="true">
+    <Position X="43.5" Y="31" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAIAAA=</HashCode>
+      <FileName>Shapes\Descriptors\ConvexPolyhedronShapeDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Shapes.Descriptors.HeightFieldShapeDescriptor" Collapsed="true">
+    <Position X="43.5" Y="35.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Shapes\Descriptors\HeightFieldShapeDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Shapes.Descriptors.TriangleMeshShapeDescriptor" Collapsed="true">
+    <Position X="46.25" Y="35.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Shapes\Descriptors\TriangleMeshShapeDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Shapes.Descriptors.TransformedShapeDescriptor" Collapsed="true">
+    <Position X="46.25" Y="26.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgAEAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Shapes\Descriptors\TransformedShapeDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Shapes.Descriptors.ConvexHullOfPointsShapeDescriptor" Collapsed="true">
+    <Position X="46.25" Y="31" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Shapes\Descriptors\ConvexHullOfPointsShapeDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Shapes.Descriptors.ConvexHullOfShapesShapeDescriptor" Collapsed="true">
+    <Position X="48.75" Y="26.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Members" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Shapes\Descriptors\ConvexHullOfShapesShapeDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Shapes.Descriptors.SphereShapeDescriptor" Collapsed="true">
+    <Position X="50.75" Y="22.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Shapes\Descriptors\SphereShapeDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Shapes.Descriptors.RectangleShapeDescriptor" Collapsed="true">
+    <Position X="46" Y="18.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Shapes\Descriptors\RectangleShapeDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Shapes.Descriptors.TriangleShapeDescriptor" Collapsed="true">
+    <Position X="43.5" Y="18.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAADgAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Shapes\Descriptors\TriangleShapeDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Shapes.Descriptors.PointShapeDescriptor" Collapsed="true">
+    <Position X="43.5" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Shapes\Descriptors\PointShapeDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Shapes.Descriptors.LineShapeDescriptor" Collapsed="true">
+    <Position X="43.5" Y="14.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAACAAAABAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Shapes\Descriptors\LineShapeDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Materials.MaterialDescriptor" Collapsed="true">
+    <Position X="28.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAAIAAA=</HashCode>
+      <FileName>Materials\MaterialDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.Materials.FrictionConfiguration" Collapsed="true">
+    <Position X="29.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Materials\FrictionConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Physics.Materials.RestitutionConfiguration" Collapsed="true">
+    <Position X="29.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Materials\RestitutionConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="System.Physics.ShapePositionerDescriptor" Collapsed="true">
+    <Position X="34" Y="14.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Members" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>ShapePositionerDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.RigidBodies.MassFrameDescriptor" Collapsed="true">
+    <Position X="23.25" Y="11.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAABAAAAAAAAAAAAQAAAAACAAAA=</HashCode>
+      <FileName>RigidBodies\MassFrameDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.RigidBodies.Configurations.SleepingConfiguration" Collapsed="true">
+    <Position X="19.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RigidBodies\Configurations\SleepingConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.RigidBodies.Configurations.CcdConfiguration" Collapsed="true">
+    <Position X="19.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RigidBodies\Configurations\CcdConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.LockRotationConfiguration" Collapsed="true">
+    <Position X="19.75" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAA=</HashCode>
+      <FileName>LockRotationConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.Physics.RigidBodies.Configurations.CollisionResponseConfiguration" Collapsed="true">
+    <Position X="19.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>RigidBodies\Configurations\CollisionResponseConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Interface Name="System.Physics.IShapePositioner" Collapsed="true">
+    <Position X="34" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IShapeTransformationPair.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Shapes.IShape" Collapsed="true">
+    <Position X="47" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\IShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Shapes.IPointShape" Collapsed="true">
+    <Position X="43.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\IPointShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Shapes.ITriangleShape" Collapsed="true">
+    <Position X="43.5" Y="17.25" Width="1.5" />
+    <InheritanceLine Type="System.Physics.IStateCopier&lt;T&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="51" Y="2.812" />
+        <Point X="51" Y="10" />
+        <Point X="50.668" Y="10" Type="JumpStart" />
+        <Point X="50.502" Y="10" Type="JumpEnd" />
+        <Point X="49.333" Y="10" Type="JumpStart" />
+        <Point X="49.167" Y="10" Type="JumpEnd" />
+        <Point X="48.583" Y="10" Type="JumpStart" />
+        <Point X="48.269" Y="10" Type="JumpEnd" />
+        <Point X="47.833" Y="10" Type="JumpStart" />
+        <Point X="47.667" Y="10" Type="JumpEnd" />
+        <Point X="46.981" Y="10" Type="JumpStart" />
+        <Point X="46.814" Y="10" Type="JumpEnd" />
+        <Point X="45.352" Y="10" />
+        <Point X="45.352" Y="17.818" />
+        <Point X="45" Y="17.818" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAADgAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\ITriangleShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Shapes.IBoxShape" Collapsed="true">
+    <Position X="43.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\IBoxShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Shapes.IConvexPolyhedronShape" Collapsed="true">
+    <Position X="43.5" Y="29.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\IConvexPolyhedronShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Shapes.ICompositeShape" Collapsed="true">
+    <Position X="43.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\ICompositeShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Shapes.IHeightFieldShape" Collapsed="true">
+    <Position X="43.5" Y="34" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\IHeightFieldShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Shapes.ILineShape" Collapsed="true">
+    <Position X="43.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\ILineShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Shapes.IRectangleShape" Collapsed="true">
+    <Position X="46" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\IRectangleShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Shapes.IConvexHullOfPointsShape" Collapsed="true">
+    <Position X="46.25" Y="29.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\IConvexHullOfPointsShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Shapes.ICapsuleShape" Collapsed="true">
+    <Position X="46.25" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\ICapsuleShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Shapes.ITransformedShape" Collapsed="true">
+    <Position X="46.25" Y="25.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\ITransformedShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Shapes.ITriangleMeshShape" Collapsed="true">
+    <Position X="46.25" Y="34" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\ITriangleMeshShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Shapes.ILineSegmentShape" Collapsed="true">
+    <Position X="46" Y="13.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAgAAAAAAg=</HashCode>
+      <FileName>Shapes\ILineSegmentShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Shapes.ICircleShape" Collapsed="true">
+    <Position X="48.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\ICircleShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Shapes.ICylinderShape" Collapsed="true">
+    <Position X="48.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\ICylinderShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Shapes.IConvexHullOfShapesShape" Collapsed="true">
+    <Position X="48.75" Y="25.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\IConvexHullOfShapesShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Shapes.IPlaneShape" Collapsed="true">
+    <Position X="50.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\IPlaneShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Shapes.ISphereShape" Collapsed="true">
+    <Position X="50.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\ISphereShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Constraints.ITwoRigidBodiesConstraint" Collapsed="true">
+    <Position X="69.25" Y="11.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\ITwoBodiesConstraint.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Constraints.IConstraint" Collapsed="true">
+    <Position X="69.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\IConstraint.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Constraints.IFixedJoint" Collapsed="true">
+    <Position X="63.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\IFixedJoint.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Constraints.ISphericalJoint" Collapsed="true">
+    <Position X="65.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\ISphericalJoint.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Constraints.IPrismaticJoint" Collapsed="true">
+    <Position X="68.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAIAQAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Constraints\IPrismaticJoint.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Constraints.ICylindricalJoint" Collapsed="true">
+    <Position X="70.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAIAQAIAAAAAAgCAAAAAAAAA=</HashCode>
+      <FileName>Constraints\ICylindricalJoint.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Constraints.IHingeJoint" Collapsed="true">
+    <Position X="63.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAIAQAIAAAAAAgEAAAAAAAAA=</HashCode>
+      <FileName>Constraints\IHingeJoint.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Constraints.INoRotationJoint" Collapsed="true">
+    <Position X="71" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\INoRotationJoint.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Constraints.IDistanceRangeJoint" Collapsed="true">
+    <Position X="73.5" Y="14.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAIAACAAAAAAAAA=</HashCode>
+      <FileName>Constraints\IDistanceRangeLimit.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Constraints.IPointOnLineJoint" Collapsed="true">
+    <Position X="65.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAJAACAAAACAAAA=</HashCode>
+      <FileName>Constraints\IPointOnLineJoint.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Constraints.IPointOnPlaneJoint" Collapsed="true">
+    <Position X="68.25" Y="19.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAQAAAACAAAAAAMAGAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\IPointOnPlaneJoint.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Fixtures.IFixture" Collapsed="true">
+    <Position X="29.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fixtures\IFixture.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Fixtures.ICompositeFixture" Collapsed="true">
+    <Position X="31.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fixtures\ICompositeFixture.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Fixtures.ISimpleFixture" Collapsed="true">
+    <Position X="28.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fixtures\ISimpleFixture.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Materials.IMaterial" Collapsed="true">
+    <Position X="28.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Materials\IMaterial.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.RigidBodies.IRigidBody" Collapsed="true">
+    <Position X="18.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAIAAAAAAAAAAAAAAEAAIAAAAEAAAAAAAAGAAMAAA=</HashCode>
+      <FileName>RigidBodies\IBody.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Forces" />
+      <Property Name="Velocity" />
+      <Property Name="Energy" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="System.Physics.Simulators.ISimulator" Collapsed="true">
+    <Position X="12.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAQAAAAAAAAAAAAACAgAAAAAAEAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Simulators\ISimulator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Queries" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="System.Physics.RigidBodies.IVelocity" Collapsed="true">
+    <Position X="19.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAIAAAAABAEAAAAAAAAAAEAA=</HashCode>
+      <FileName>RigidBodies\IVelocitiesManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.RigidBodies.IMassFrame" Collapsed="true">
+    <Position X="19.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAQEAAAASAAAA=</HashCode>
+      <FileName>RigidBodies\IMassFrame.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.RigidBodies.IEnergy" Collapsed="true">
+    <Position X="19.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RigidBodies\IEnergiesManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Simulators.IQueries" Collapsed="true">
+    <Position X="13" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Simulators\IQueries.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.RigidBodies.IForces" Collapsed="true">
+    <Position X="19.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAABAAAAEEAAAAAAAAAAAAE=</HashCode>
+      <FileName>RigidBodies\IForces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Configurations.IConfiguration&lt;T&gt;" Collapsed="true">
+    <Position X="2.75" Y="11.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\IConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Factories.IMultipleFactory&lt;TBase&gt;" Collapsed="true">
+    <Position X="3.75" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAQAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\IMultipleFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Factories.ISingleFactory&lt;TBase&gt;" Collapsed="true">
+    <Position X="1.25" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\ISingleFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.IDescriptible&lt;TDescriptor&gt;" Collapsed="true">
+    <Position X="52.25" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDescriptible.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.IDescriptor" Collapsed="true">
+    <Position X="43.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDescriptor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.IDefaultible" Collapsed="true">
+    <Position X="40.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDefaultible.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.IUserDataStorer" Collapsed="true">
+    <Position X="45.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>IUserDataStorer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Configurations.IConfigurator&lt;T&gt;" Collapsed="true">
+    <Position X="1" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAAAAAAAAAAAACAAAAAAAAABAAAA=</HashCode>
+      <FileName>Configurations\IConfigurator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.IActor" Collapsed="true">
+    <Position X="19.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IActor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Factories.IFactory&lt;TBase&gt;" Collapsed="true">
+    <Position X="2.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACEAAAAAAAABAIAA=</HashCode>
+      <FileName>Factories\IFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Configurations.IConfiguratorOf&lt;T, TConfiguration&gt;" Collapsed="true">
+    <Position X="1" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\IConfiguratorOf.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.IStateCopier&lt;T&gt;" Collapsed="true">
+    <Position X="50.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IStateCopier.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Factories.IFactoryOf&lt;TElement&gt;" Collapsed="true">
+    <Position X="6.25" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\IFactoryOf.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Factories.IFactoryOf&lt;TElement, TDescriptor&gt;" Collapsed="true">
+    <Position X="6.25" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\IFactoryOf.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.IVisitable" Collapsed="true">
+    <Position X="56.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IVisitable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.IVisitor" Collapsed="true">
+    <Position X="61.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQCAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>IVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.ITreeEndVisitorOf&lt;TVisitableTree&gt;" Collapsed="true">
+    <Position X="59.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>ITreeEndVisitorOf.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.ITreeStartVisitorOf&lt;TVisitableTree&gt;" Collapsed="true">
+    <Position X="61.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ITreeStartVisitorOf.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.IVisitableLeaf" Collapsed="true">
+    <Position X="55.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IVisitableLeaf.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.IVisitableTree" Collapsed="true">
+    <Position X="57.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IVisitableTree.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.Visitor.ILeafVisitorOf&lt;TVisitable&gt;" Collapsed="true">
+    <Position X="63.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitor\ILeafVisitorOf.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.IGlobalForceField" Collapsed="true">
+    <Position X="3.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IGlobalForceField.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.ForceEffects.IForceEffect" Collapsed="true">
+    <Position X="3.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQQAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ForceEffects\IForceEffect.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Physics.ForceEffects.IForceField" Collapsed="true">
+    <Position X="3.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ForceEffects\IForceField.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="System.Physics.RigidBodies.MotionType" Collapsed="true">
+    <Position X="18.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAABAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>RigidBodies\MotionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="System.Physics.RigidBodies.CoordinateSpace" Collapsed="true">
+    <Position X="18.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>RigidBodies\CoordinateSpace.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

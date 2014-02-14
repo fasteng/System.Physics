@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.Physics.DigitalRune.RigidBodies.DigitalRuneRigidBody" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAIEAAAAAAAAECAAAAA=</HashCode>
+      <FileName>Bodies\DigitalRuneRigidBody.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRuneAngularLimit" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DefaultAngularLimit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRuneAngularVelocityMotor" Collapsed="true">
+    <Position X="4" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DigitalRuneAngularVelocityMotor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRuneConeLimit" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DigitalRuneConeLimit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRuneCylindricalJoint" Collapsed="true">
+    <Position X="11" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DigitalRuneCylindricalJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRuneD6Joint" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DigitalRuneD6Joint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRuneDistanceRangeJoint" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DigitalRuneDistanceRangeJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRuneDoubleHingeJoint" Collapsed="true">
+    <Position X="4" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DigitalRuneDoubleHingeJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRuneEulerMotor" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DigitalRuneEulerMotor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRuneFixedJoint" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DigitalRuneFixedJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRuneHingeJoint" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DigitalRuneHingeJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRuneLinearLimit" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DigitalRuneLinearLimit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRuneLinearVelocityMotor" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DigitalRuneLinearVelocityMotor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRuneNoRotationJoint" Collapsed="true">
+    <Position X="11" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DigitalRuneNoRotationJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRunePlaneLimit" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DigitalRunePlaneLimit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRunePointOnLineJoint" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DigitalRunePointOnLineJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRunePointOnPlaneJoint" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DigitalRunePointOnPlaneJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRunePositionMotor" Collapsed="true">
+    <Position X="11" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DigitalRunePositionMotor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRunePrismaticJoint" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DigitalRunePrismaticJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRuneQuaternionMotor" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DigitalRuneQuaternionMotor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRuneSphericalJoint" Collapsed="true">
+    <Position X="11" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DigitalRuneSphericalJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Constraints.DigitalRuneUniversalJoint" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\DigitalRuneUniversalJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Conversions" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversions\Conversions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Fixtures.DigitalRuneSimpleFixture" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAEAAAAAAAAAAAAIAAAAAAAAAAEEAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Fixtures\DigitalRuneSimpleFixture.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Fixtures.DigitalRunePlaneShape" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAIEAAABAQAAgAAAAA=</HashCode>
+      <FileName>Fixtures\DigitalRuneSimpleFixtureFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Shapes.DigitalRuneBoxShape" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DigitalRuneBoxShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Shapes.DigitalRuneCapsuleShape" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DigitalRuneCapsuleShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Shapes.DigitalRuneCircleShape" Collapsed="true">
+    <Position X="11" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DigitalRuneCircleShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Shapes.DigitalRuneCompositeShape" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DigitalRuneCompositeShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Shapes.DigitalRuneConvexHullOfPoints" Collapsed="true">
+    <Position X="4" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DigitalRuneConvexHullOfPoints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Shapes.DigitalRuneConvexOfShape" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DigitalRuneConvexOfShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Shapes.DigitalRuneConvexPolyhedron" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DigitalRuneConvexPolyhedron.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Shapes.DigitalRuneCylinderShape" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DigitalRuneCylinderShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Shapes.DigitalRuneHeightFieldShape" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DigitalRuneHeightFieldShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Shapes.DigitalRuneLineSegmentShape" Collapsed="true">
+    <Position X="4" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DigitalRuneLineSegmentShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Shapes.DigitalRuneLineShape" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DigitalRuneLineShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Shapes.DigitalRuneMinkowskiDifferenceShape" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DigitalRuneMinkowskiDifferenceShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Shapes.DigitalRuneMinkowskiSumShape" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DigitalRuneMinkowskiSumShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Shapes.DigitalRunePlaneShape" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAIEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DigitalRunePlaneShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Shapes.DigitalRunePointShape" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DigitalRunePointShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Shapes.DigitalRuneRectangleShape" Collapsed="true">
+    <Position X="4" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DigitalRuneRectangleShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Shapes.DigitalRuneSphereShape" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DigitalRuneSphereShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Shapes.DigitalRuneTransformedShape" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DigitalRuneTransformedShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Shapes.DigitalRuneTriangleMeshShape" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DigitalRuneTriangleMeshShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Shapes.DigitalRuneTriangleShape" Collapsed="true">
+    <Position X="4" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\DigitalRuneTriangleShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Physics.DigitalRune.Simulators.DigitalRuneSimulator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAIAAAAAAAAAAAEAQAAAAAAAQQAAA=</HashCode>
+      <FileName>Simulators\DigitalRuneSimulator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
